@@ -24,7 +24,7 @@ Hopefully it will stay like this as I can't get any more points until a new chal
 For this lab, I will explain my investigation work regarding this ransomware attack. To break down this exercise, I will focus on interesting questions asked in this SocVel's challenge. Thus, some questions might be omitted.
 
 Most of the logs for this challenge uses the `.evtx` extension which are logs managed by Windows Event Viewer, you can get more information on [this Forensics Wiki](https://forensicswiki.xyz/wiki/index.php?title=Windows_XML_Event_Log_%28EVTX%29) or [this LogRhythm documentation](https://docs.logrhythm.com/docs/devices/ms-windows-event-log-sources/ms-windows-event-logging-xml-windows-defender/malware-detection-events-xml-logs
-). In order to deal with Windows Event Log files on my Linux operating system, I converted them into XML files with a Python script `evtx_dump.py`, available in my GitHub repository [there](https://github.com/exti0p/ctf/blob/master/2021/SocVel/DFIR/evtx_dump.py).
+). In order to deal with Windows Event Log files on my Linux operating system, I converted them into XML files with a Python script `evtx_dump.py`, available in my GitHub repository [there](https://github.com/extiop/ctf/blob/master/2021/SocVel/DFIR/evtx_dump.py).
 
 #### Q3) What section of the targeted companies' websites were the attackers using to deliver malicious links to victims?
 

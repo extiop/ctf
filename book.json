@@ -1,6 +1,6 @@
 {
   "honkit": ">= 3.0.0",
-  "title": "exti0p's realm",
+  "title": "extiop's realm",
   "root": "./",
   "plugins": [
     "mathjax@https://github.com/algorithm-archivists/plugin-mathjax"
